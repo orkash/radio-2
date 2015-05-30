@@ -27,7 +27,7 @@ public class Net {
             while ((line = br.readLine()) != null) {
                 htmstr.append(line + "\n");
             }
-        }catch(UnsupportedEncodingException ex){
+        } catch(UnsupportedEncodingException ex){
         } catch (MalformedURLException ex) {
         } catch (UnknownHostException ex) {
         } catch (IOException ex) {
